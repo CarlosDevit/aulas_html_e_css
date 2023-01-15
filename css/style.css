@@ -18,31 +18,39 @@ body {
     float: left;
 }
 
-@media screen and (max-height: 580px) {
+/*CUIDADO COM A SINTAXE NAS MEDIAS QUERIES ESPACOS SAO IMPORTANTES*/
+
+    /*muda a tela de acordo com a diferenca da altura pela largura se uma for 2x maior/menor que a outra*/
+/*
+@media  and (min-aspect-ratio: 2/1) {
     .box{
-        width: 50%;
+        width: 100%;
     }
     
 }
 
-
-
-/*
-@media screen and (min-width: 780px) {
-    .box{
-        width: 50%;
-    }
-}
-
-@media screen and (max-width: 780px){
-    .box{
-        width: 50%;
-    }
-}
-
-@media screen and (max-width: 520px){
+@media  and (max-aspect-ratio: 2/1) {
     .box{
         width: 100%;
     }
+    
+}
+*/
+    /* logica matematica OU */
+/*
+@media screen and (max-width: 768px) , screen and (max-height: 500px) {
+   .box{
+        width: 100%;
+   }
+}
+*/
+
+    /* logica matematica E */
+/*
+@media screen and (max-width: 768px) and (max-height: 500px) {
+    .box{
+        width: 100%;
+    }
+    
 }
 */
