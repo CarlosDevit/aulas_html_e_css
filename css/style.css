@@ -10,18 +10,39 @@ body {
     height: 100%;
 }
 
-/* vw - Viewport height = Altura do viewport - OBS: Não Leva em conta a Scrollbar*/
-/* vh - Viewport width = Largura do viewport - OBS: Não Leva em conta a Scrollbar*/
+.box{
+    border:1px solid black;
+    width: 33.3%;
+    height: 300px;
+    background-color: green;
+    float: left;
+}
 
-.box {
-    width: 100vw; 
-    height: 90px;
-    background-color: red;
+@media screen and (max-height: 580px) {
+    .box{
+        width: 50%;
+    }
+    
 }
 
 
-.box2{
-    width: 10px;
-    height: 9000px;
 
+/*
+@media screen and (min-width: 780px) {
+    .box{
+        width: 50%;
+    }
 }
+
+@media screen and (max-width: 780px){
+    .box{
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 520px){
+    .box{
+        width: 100%;
+    }
+}
+*/
