@@ -1,16 +1,27 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 
 }
 
-html,body{
+html,
+body {
     height: 100%;
 }
 
-.box{
-    width: calc((100% / 3) + 90px );
+/* vw - Viewport height = Altura do viewport - OBS: Não Leva em conta a Scrollbar*/
+/* vh - Viewport width = Largura do viewport - OBS: Não Leva em conta a Scrollbar*/
+
+.box {
+    width: 100vw; 
     height: 90px;
-    background: red;
+    background-color: red;
+}
+
+
+.box2{
+    width: 10px;
+    height: 9000px;
+
 }
