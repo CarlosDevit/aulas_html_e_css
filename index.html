@@ -1,33 +1,94 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="pt-br">
 
 <head>
 
     <title>Galeria Responsiva</title>
-    <link href="css/style.css" type="text/css" rel="stylesheet" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0,
     maximun-scale=1.0">
-    <!-- Tagas para SEO -->
     <meta name="description" content="Exemplo de descrição para meu site.">
     <meta name="keywords" content="palavras-chaves,separadas,por,virgula">
     <meta name="author" content="Carlos Devit">
-    <!---->
+    <link href="css/style.css" rel="stylesheet" />
 
 </head>
 
 <body>
 
-    <div class="menu">
-        <a title="Home" href="">Home</a>
-        <a title="Sobre" href="">Sobre</a>
-        <a title="Contato" href="">Contato</a>
-    </div><!-- menu -->
+    <header class="principal">
+        <nav>
+            <ul>
+                <li><a href="" title="Home">Home</a></li>
+                <li><a href="" title="Sobre">Sobre</a></li>
+                <li><a href="" title="Contato">Contato</a></li>
+            </ul><!-- ul -->
+        </nav><!-- nav -->
+    </header><!-- header -->
 
-    <div class="img">
-        <img alt="Descrição" title="Descrição" src="images/img.jpg" >
-    </div><!-- img -->
+    <main>
+        <section class="sobre1">
+            <article>
+                <header>
+                    <h2>Meu Titulo</h2>
+                </header><!-- header -->
 
+                <div>
+                    <p>Conteúdo do Artigo!</p>
+                </div><!-- div -->
+
+                <footer>
+                    Escrito por Zezin
+                </footer><!-- footer -->
+            </article>
+        </section><!-- section1 -->
+
+        <section class="sobre2">
+            <article>
+                <header>
+                    <h2>Meu Titulo</h2>
+                    <aside>Outeo Post com esse assunto <a href="">Aqui!</a></aside>
+                </header><!-- header -->
+
+                <div>
+                    <p>Conteúdo do Artigo!</p>
+                </div><!-- div -->
+
+                <footer>
+                    Escrito por Zezin
+                </footer><!-- footer -->
+            </article>
+        </section><!-- section2 -->
+
+        <aside>
+            <h2>Temas relacionados</h2>
+            <nav>
+                <ul>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                </ul>
+            </nav><!-- nav -->
+        </aside><!-- aside -->
+    </main><!-- main -->
+
+    <footer>
+        <section class="footer1">
+            <nav>
+                <ul>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                    <li><a href=""></a></li>
+                </ul><!-- ul -->
+            </nav><!-- nav -->
+        </section><!-- section1 -->
+
+        <section class="footer2">
+            <nav>
+               <p>Todos os Direitos reservados.</p>
+            </nav><!-- nav -->
+        </section><!-- section2 -->
+    </footer><!-- footer -->
 </body>
 
 </html>
