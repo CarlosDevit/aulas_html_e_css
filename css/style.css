@@ -8,52 +8,16 @@
 }
 
 div.box{
-    width: 300px;
-    height: 300px;
-    position: relative;
-    background-color: green;
-
-}
-
-div.box:hover{
-    animation-name: animacao_1;
-    animation-duration: 2s;
-    animation-delay: 0s;
-    animation-iteration-count: infinite;
-
-}
-
-@keyframes animacao_1{
-    0%{
-        left: 0;
-        top: 0;
-        background-color: green;
-    }
-
-    25%{
-        left: 100px;
-        top: 10px;
-        background-color: orange;
-    }
-
-    100%{
-        left: 0;
-        top: 0;
-        background-color: red;
-    }
-
-}
-
-div.box2{
-    width: 300px;
-    height: 300px;
-    position: relative;
-    background-color: blue;
-    transition: 2s;
-}
-
-div.box2:hover{
-    width: 600px;
+    width: 800px;
     height: 600px;
-    background-color: blueviolet;
+    position: relative;
+
+}
+
+div.box img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
 }
