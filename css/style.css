@@ -8,29 +8,9 @@
 }
 
 div.box{
-    text-align: center;
-
-}
-
-div.box img{
-    width: 40%;
-    box-shadow: 10px 10px 15px 5px rgb(130, 130, 130);
-    animation-name: animacao;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-
-}
-
-@keyframes animacao{
-    25%{
-        box-shadow: 10px 10px 15px 5px rgb(130, 130, 130);
-    }
-    50%{
-        box-shadow: 20px 20px 30px 10px rgb(130, 130, 130);
-    }
-
-    100%{
-
-        box-shadow: 10px 10px 15px 5px rgb(130, 130, 130);
-    }
-}
+    width: 30%;
+    padding-top: 30%;
+    background: black;
+    margin: 50px auto;
+    border-radius: 15%;
+}    
