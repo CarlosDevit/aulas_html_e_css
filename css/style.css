@@ -4,20 +4,12 @@
     box-sizing: border-box;
 }
 
-main{
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-
-}
-
-aside{
-     /* order: 2; */
-    padding: 90px 20px;
-    background: #ccc;
-}
-article{
-    /* order: 1; */
-    padding: 30px;
-    background: grey;
+div.box{
+    width: 100%;
+    height: 500px;
+    /* background: linear-gradient(to bottom right, #ff00ff, rgba(0,255,0,0.5), rgb(255, 165, 0), purple); */
+    /* background: linear-gradient(-45deg, #ff00ff, rgba(0,255,0,0.5), rgb(255, 165, 0), purple); */
+    /*background: repeating-linear-gradient( purple, green 10%, blue 20%, red 30%,yellow 31%); //1°cor sem %, proxima cor ja deve ter % maior a anterior*/
+    background: repeating-radial-gradient(circle , darkred , yellow 10%, rgb(12, 5, 107) 20%);
+    
 }
